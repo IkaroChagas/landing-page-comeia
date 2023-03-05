@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #548285;
+}
+
+header {
+    padding: 20px;
+}
+
+.foto {
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #9AC9CC;
+    float: left;
+    position: relative;
+    right: 100px;
+}
+
+.info-pessoais li {
+    align-items: center;
+    padding-left: 110px;
+    margin: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.barra-portfolio {
+    height: 50px;
+    width: 100%;
+    padding-top: 7px;
+    background-color: #3D6A6D;
+}
+
+.botao-portfolio {
+    display: block;
+    text-align: center;
+    background-color: #9AC9CC;
+    margin: 0 auto;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.botao-portfolio:hover {
+    background-color: #6C9A9D;
+}
+
+
+h3 {
+    padding: 15px;
+    margin: -5px;
+    font-size: 18px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 550px;
+    padding: 10px;
+    background-color: #9AC9CC;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.box4 h3 {
+    text-align: center;
+}
+
+.box5 {
+    align-items: center;
+    background-color: #6C9A9D;
+    width: 450px;
+    border-radius: 5px;
+    margin: 10px 25px;
+    padding-top: 25px;
+}
+
+#nome,
+#email {
+    display: flex;
+    width: 400px;
+    height: 25px;
+    background-color: #9AC9CC;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nome,
+#email::placeholder {
+    text-align: center;
+    font-weight: 400;
+}
+
+#mensagem {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #9AC9CC;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.botao-enviar {
+    text-align: center;
+    padding: 10px;
+}
+
+.botao {
+    background-color: #9AC9CC;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #6C9A9D;
+}
