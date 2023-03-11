@@ -147,3 +147,60 @@ ul {
 .botao:hover {
     background-color: #6C9A9D;
 }
+
+
+@media (max-width: 428px) {
+
+    * {
+        font-size: 15px;
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .foto {
+        height: 120px;
+        width: 120px;
+        border-radius: 5px;
+        background-color: #9AC9CC;
+        right: 5px;
+    }
+
+
+    .info-pessoais li {
+        align-items: center;
+        text-align: center;
+        padding-left: 110px;
+        margin: 15px;
+        font-weight: 600;
+    }
+
+    .botao-portfolio {
+        width: 150px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 360px;
+    }
+
+    .box5 {
+        width: 360px;
+    }
+
+    #nome,
+    #email {
+        width: 340px;
+    }
+
+    #mensagem {
+        width: 340px;
+    }
+
+    .botao {
+        width: 200px;
+        height: 50px;
+    }
+}
